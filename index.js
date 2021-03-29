@@ -10,11 +10,11 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ cart.push(`${item}`)
 }
 
 function viewCart() {
-  // write your code here
+  return(cart)
 }
 
 function total() {
